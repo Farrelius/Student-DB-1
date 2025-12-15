@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row; 
+  gap: 30px;
+  justify-content: center;
+}

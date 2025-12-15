@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Student</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <h1>Add Student</h1>
+  <hr>
+   
+  <form action="" method="post">
+    <label for="name">
+      <p>Name : <input type="text" name="student_name" id="name"></p>
+    </label>
+        
+    <label for="age">
+      <p>Age : <input type="number" name="student_age" id="age"></p>
+    </label>
+        
+    <label for="address">
+      <p>Address : <input type="text" name="student_address" id="address"></p>
+    </label>
+    
+    <label>
+      <p>Merit :
+        <input type="radio" name="merit_score" value="Excellent">Excellent
+        <input type="radio" name="merit_score" value="Great">Great
+        <input type="radio" name="merit_score" value="Satisfactory">Satisfactory
+        <input type="radio" name="merit_score" value="Bad">Bad
+        <input type="radio" name="merit_score" value="Awful">Awful
+      </p>
+    </label>
+
+    <label>
+      <p>Academic :
+        <input type="radio" name="academic_score" value="Excellent">Excellent
+        <input type="radio" name="academic_score" value="Great">Great
+        <input type="radio" name="academic_score" value="Satisfactory">Satisfactory
+        <input type="radio" name="academic_score" value="Bad">Bad
+        <input type="radio" name="academic_score" value="Awful">Awful
+      </p>
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
+   
+  <script src="../script.js"></script>
+</body>
+
+</html>
